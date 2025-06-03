@@ -1,0 +1,8 @@
+{
+    "files": [
+        {
+            "source": "navbar.blade.php",
+            "destination": "resources/views/partials/dashboard/navbar.blade.php"
+        }
+    ]
+}
