@@ -32,11 +32,11 @@
     background: var(--grey-200);
 }
 .bg-gradient-primary {
-    background: rgb(6, 27, 28);
+    background: rgb(171, 26, 0);
     background: linear-gradient(
         0deg,
-        rgba(6, 27, 28, 1) 0%,
-        rgba(28, 125, 130, 0) 100%
+        rgb(28, 8, 6) 0%,
+        rgba(130, 28, 28, 0) 100%
     );
 }
 .text-primary {

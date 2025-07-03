@@ -13,12 +13,12 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        User::create([
+        User::whereEmail('admin@gmail.com')->update([
             'name' => 'Administrator',
             'email' => 'admin@gmail.com',
             'username' => 'admin',
             'role' =>  'admin',
-            'password' => 'admin',
+            'password' => bcrypt('admin'),
             'email_verified_at' => now()
         ]);
     }
