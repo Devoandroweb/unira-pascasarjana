@@ -30,10 +30,12 @@ var _LOADING = `<div class="w-100 d-flex align-items-center">
                 resetErrorValidate(form);
                 if (withFile) {
                     data = new FormData(form[0]);
-                    var editorInstance = document.querySelector('.ckeditor-modal').editorInstance;
-                    if (editorInstance) {
-                        var editorData = editorInstance.getData();
-                        data.set("description",editorData)
+                    if(document.querySelector('.ckeditor-modal')){
+                        var editorInstance = document.querySelector('.ckeditor-modal').editorInstance;
+                        if (editorInstance) {
+                            var editorData = editorInstance.getData();
+                            data.set("description",editorData)
+                        }
                     }
                 } else {
                     data = form.serialize() + "&_method=" + method;
@@ -49,7 +51,6 @@ var _LOADING = `<div class="w-100 d-flex align-items-center">
                         dataType: "JSON",
                         success: function (response) {
                             if (response.status == false) {
-                                console.log(response);
                                 iziToast.warning({
                                     title: translations.failed,
                                     message: response.data.message,
