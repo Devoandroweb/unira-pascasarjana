@@ -577,7 +577,7 @@ a.small:hover {
         font-size: 10pt;
     }
     .statistic .section-body {
-        background-image: url(image/bg-statistic-vertical?v=1);
+        background-image: url(image/bg-statistic-vertical.png?v=1);
     }
     .item-statistic .count {
         font-size: 34px;
