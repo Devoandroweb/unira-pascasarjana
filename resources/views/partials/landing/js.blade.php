@@ -183,6 +183,7 @@
             items:1,
             dots:true,
             nav:true,
+            autoHeight:true,
             navText:['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>']
         });
        
