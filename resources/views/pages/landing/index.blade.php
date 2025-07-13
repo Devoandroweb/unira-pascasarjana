@@ -130,7 +130,7 @@
                         <div class="item-tools">
                             <div class="icon">
                                 <a href="https://sima.uniramalang.ac.id/" target="__BLANK">
-                                    <img loading="lazy" src="{{ URL::asset('/landing') }}/image/sima.png" alt="">
+                                    <img loading="lazy" src="{{ URL::asset('/landing') }}/image/sima.png?v=1" alt="">
                                 </a>
                             </div>
                             <div class="label">
@@ -143,7 +143,7 @@
                         <div class="item-tools">
                             <div class="icon">
                                 <a href="https://elearning.uniramalang.ac.id/" target="__BLANK">
-                                    <img loading="lazy" src="{{ URL::asset('landing') }}/image/e-learning.png"
+                                    <img loading="lazy" src="{{ URL::asset('landing') }}/image/e-learning.png?v=1"
                                         alt="">
                                 </a>
                             </div>
@@ -156,7 +156,7 @@
                         <div class="item-tools">
                             <div class="icon">
                                 <a href="https://penmaba.uniramalang.ac.id/" target="__BLANK">
-                                    <img loading="lazy" src="{{ URL::asset('landing') }}/image/pmb.png" alt="">
+                                    <img loading="lazy" src="{{ URL::asset('landing') }}/image/pmb.png?v=1" alt="">
                                 </a>
                             </div>
                             <div class="label">
@@ -168,7 +168,7 @@
                         <div class="item-tools">
                             <div class="icon">
                                 <a href="https://kemahasiswaan.uniramalang.ac.id/" target="__BLANK">
-                                    <img loading="lazy" src="{{ URL::asset('landing') }}/image/kemahasiswaan.png"
+                                    <img loading="lazy" src="{{ URL::asset('landing') }}/image/kemahasiswaan.png?v=1"
                                         alt="">
                                 </a>
                             </div>
@@ -181,7 +181,7 @@
                         <div class="item-tools">
                             <div class="icon">
                                 <a href="https://tracerstudy.uniramalang.ac.id/" target="__BLANK">
-                                    <img loading="lazy" src="{{ URL::asset('/landing') }}/image/Alumni.png" alt="">
+                                    <img loading="lazy" src="{{ URL::asset('/landing') }}/image/Alumni.png?v=1" alt="">
                                 </a>
                             </div>
                             <div class="label">
@@ -228,11 +228,11 @@
                                     <div class="content-cover">
                                         <div class="date d-flex align-items-center">
                                             <img loading="lazy" class="me-1" style="width: auto;"
-                                                src="{{ URL::asset('landing') }}/image/calendar.png" alt="">
+                                                src="{{ URL::asset('landing') }}/image/calendar.png?v=1" alt="">
                                             {{ toDateIndo($n->created_at, false, false) }}
                                         </div>
                                         <h3 class="text-uppercase fw-bold">
-                                            {{ $n->title, app()->getLocale() }}
+                                            {!! $n->title, app()->getLocale() !!}
                                         </h3>
                                         <p class="description">
                                             {!! Str::words(strip_tags($n->content), 20, '...'), app()->getLocale() !!}
@@ -260,7 +260,7 @@
                                 <div class="content-cover">
                                     <div class="date d-flex align-items-center">
                                         <img loading="lazy" class="me-1" style="width: auto;"
-                                            src="{{ URL::asset('landing') }}/image/calendar.png" alt="">
+                                            src="{{ URL::asset('landing') }}/image/calendar.png?v=1" alt="">
                                         {{ toDateIndo($n->created_at, false, false) }}
                                     </div>
                                     <h3 class="text-uppercase fw-bold">
@@ -291,7 +291,7 @@
         <div class="section-body p-5 position-relative"
             style="
             /* height: 410px; */
-            /* background-image: url(image/bg-statistic.png); */
+            /* background-image: url(image/bg-statistic.png?v=1); */
             background-size: 100% 100%;
             background-repeat: no-repeat;
             border-radius: 18px;
@@ -304,7 +304,7 @@
                     <div class="col-6 col-md-3">
                         <div class="item-statistic">
                             <div class="icon">
-                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-prodi.png"
+                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-prodi.png?v=1"
                                     alt="">
                             </div>
                             <div class="count" data-count="{{ settings()->get('number_of_study_program', 0) }}">0
@@ -315,7 +315,7 @@
                     <div class="col-6 col-md-3">
                         <div class="item-statistic">
                             <div class="icon">
-                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-dosen.png"
+                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-dosen.png?v=1"
                                     alt="">
                             </div>
                             <div class="count" data-count="{{ settings()->get('number_of_lecturers', 0) }}">0</div>
@@ -325,7 +325,7 @@
                     <div class="col-6 col-md-3">
                         <div class="item-statistic">
                             <div class="icon">
-                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-mahasiswa.png"
+                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-mahasiswa.png?v=1"
                                     alt="">
                             </div>
                             <div class="count" data-count="{{ settings()->get('number_of_students', 0) }}">0</div>
@@ -335,7 +335,7 @@
                     <div class="col-6 col-md-3">
                         <div class="item-statistic">
                             <div class="icon">
-                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-alumni.png"
+                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-alumni.png?v=1"
                                     alt="">
                             </div>
                             <div class="count" data-count="{{ settings()->get('number_of_alumni', 0) }}">0</div>
