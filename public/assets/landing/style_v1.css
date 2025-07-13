@@ -577,7 +577,7 @@ a.small:hover {
         font-size: 10pt;
     }
     .statistic .section-body {
-        background-image: url(image/bg-statistic-vertical.png);
+        background-image: url(image/bg-statistic-vertical?v=1);
     }
     .item-statistic .count {
         font-size: 34px;
@@ -626,7 +626,7 @@ a.small:hover {
 /*`md` applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 767.98px) {
     .statistic .section-body {
-        background-image: url(image/bg-statistic.png);
+        background-image: url(image/bg-statistic.png?v=1);
     }
     .img-cover {
         width: 100%;
@@ -636,20 +636,20 @@ a.small:hover {
 /*`lg` applies to medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) {
     .statistic .section-body {
-        background-image: url(image/bg-statistic.png);
+        background-image: url(image/bg-statistic.png?v=1);
     }
 }
 
 /*`xl` applies to large devices (desktops, less than 1200px) */
 @media (min-width: 1199.98px) {
     .statistic .section-body {
-        background-image: url(image/bg-statistic.png);
+        background-image: url(image/bg-statistic.png?v=1);
     }
 }
 
 /*`xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (min-width: 1399.98px) {
     .statistic .section-body {
-        background-image: url(image/bg-statistic.png);
+        background-image: url(image/bg-statistic.png?v=1);
     }
 }
