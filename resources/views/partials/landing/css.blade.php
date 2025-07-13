@@ -19,7 +19,7 @@
 <link rel="stylesheet" href="{{ URL::asset('landing') }}/owl-carousel/owl.carousel.min.css">
 <link rel="stylesheet" href="{{ URL::asset('landing') }}/owl-carousel/owl.theme.default.min.css">
 
-<link rel="stylesheet" href="{{ URL::asset('landing') }}/style_v1.css?v1">
+<link rel="stylesheet" href="{{ URL::asset('landing') }}/style_v1.css?v2">
 <style>
     .map-responsive {
         position: relative;
