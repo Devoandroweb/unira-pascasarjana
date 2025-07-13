@@ -304,7 +304,7 @@
                     <div class="col-6 col-md-3">
                         <div class="item-statistic">
                             <div class="icon">
-                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-prodi.png?v=1"
+                                <img loading="lazy" src="{{ URL::asset('landing') }}/image/statistic-prodi.png?v=4"
                                     alt="">
                             </div>
                             <div class="count" data-count="{{ settings()->get('number_of_study_program', 0) }}">0
